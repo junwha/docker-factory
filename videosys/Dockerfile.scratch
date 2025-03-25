@@ -1,0 +1,6 @@
+FROM scratch
+
+# COPY junwha-videosys-latest.tar.gz /
+# COPY junwha-videosys-profiler.tar.gz /
+COPY junwha-videosys-profiler-mesa.tar.gz /
+# COPY ./checkpoints.tar.gz /

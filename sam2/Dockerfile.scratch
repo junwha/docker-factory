@@ -1,0 +1,2 @@
+FROM scratch
+COPY samurai-latest.tar.gz /
