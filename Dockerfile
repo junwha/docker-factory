@@ -1,3 +1,5 @@
+ARG FILE
 FROM scratch
+ARG FILE
 
-COPY junwha-wan-latest.tar.gz /
+COPY $FILE /
