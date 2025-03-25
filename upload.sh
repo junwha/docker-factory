@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t junwha/none --build-arg FILE=$1 ./
+docker build -t junwha/none --build-arg FILE=junwha-$1-latest.tar.gz ./
 docker push junwha/none
